@@ -54,5 +54,5 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['calcular'] = 'Calculadorafesta/recebeDados';
-//$route['index'] = 'Calculadorafesta/index';
+$route['limpar'] = 'Calculadorafesta/index';
 

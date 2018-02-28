@@ -26,6 +26,6 @@
             {display:none !important;}
         </style>        
     </head>
-    <body>
+    <body style="background-image: url('public/img/carnival-3076952_1920.jpg') ">
         
-        <div class="container-fluid">
+        <div class="body">

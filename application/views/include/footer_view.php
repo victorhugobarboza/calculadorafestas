@@ -12,7 +12,5 @@
 <script type="text/javascript" src="<?= base_url() ?>public/js/jquery.maskedinput.js"></script>
 <script type="text/javascript" src="<?= base_url() ?>public/js/jquery.quicksearch.js"></script>
 </body>
-<object id="5a88f8f9-f86b-b986-da3b-4a8b4abea894" width="0" height="0" type="application/gas-events-cef">
-</object>
 </html>
 
