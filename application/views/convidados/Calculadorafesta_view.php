@@ -2,7 +2,7 @@
     <div class="col-md-3"></div>
     <div class="col-md-6 col-sm-12">
         <h1>Calculadora de Festas</h1>
-        <form action="<?= base_url() ?>calcular" method="POST" id="formulario" class="form">
+        <form action="<?= base_url() ?>calcular" method="POST" id="formulario" class="form" style="border-radius: 12px;">
             <div class="form-group">
                 <label>Aldultos</label>
                 <input type="number" name="adultos" class="form-control">
@@ -28,7 +28,7 @@
         <div class="col-md-3"></div>
         <div class="col-md-6">
             <center><h1>Resultados</h1></center>
-            <div style="text-align: center; border: 1px solid #000; background-color: white;">
+            <div style="text-align: center; border: 1px solid #000; background-color: white; border-radius: 12px;">
                 <ul style="list-style: none; display: inline;" class="resultado">
                     <li style="text-align: center;"><span><b>Salgados Adultos:</b> <?= $resultados[0]; ?></span></li>
                     <li style="text-align: center;"><b>Salgados Crianças:</b> <?= $resultados[1]; ?></li>
