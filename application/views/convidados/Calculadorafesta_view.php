@@ -4,7 +4,7 @@
         <h1>Calculadora de Festas</h1>
         <form action="<?= base_url() ?>calcular" method="POST" id="formulario" class="form" style="border-radius: 12px;">
             <div class="form-group">
-                <label>Aldultos</label>
+                <label>Adultos</label>
                 <input type="number" name="adultos" class="form-control">
             </div>
             <div class="form-group">
@@ -12,7 +12,7 @@
                 <input type="number" name="criancas" class="form-control">
             </div>
             <div class="form-group">
-                <label>Tera bebida alcoólica</label></br>
+                <label>Terá bebida alcoólica</label></br>
                 Sim:<input type="radio" value="1" checked="" name="bebida">
                 Não:<input type="radio" value="0" name="bebida">
             </div>
